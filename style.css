@@ -7,17 +7,49 @@ p {
 img {
   display: block;
   max-width: 100%;
+  object-fit: cover;
 }
 
 body {
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: hsl(30, 38%, 92%);
-}
-.texto {
-  background-color: hsl(0, 0%, 100%);
+  padding: 200px 100px;
 }
 
 main {
   display: grid;
-  padding: 100px;
-  margin: 0 auto;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.texto {
+  display: grid;
+  align-self: center;
+  gap: 20px;
+  padding-inline: 40px;
+}
+
+.texto h1 {
+  font-size: 2.5rem;
+}
+
+.perfume {
+  background-color: hsl(30, 38%, 92%);
+}
+
+@media (max-width: 1000px) {
+  body {
+    padding: 100px 50px;
+  }
+  .texto {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 700px) {
+  .texto h1 {
+    font-size: 1.5rem;
+  }
 }
