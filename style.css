@@ -1,0 +1,23 @@
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  background-color: hsl(30, 38%, 92%);
+}
+.texto {
+  background-color: hsl(0, 0%, 100%);
+}
+
+main {
+  display: grid;
+  padding: 100px;
+  margin: 0 auto;
+}
