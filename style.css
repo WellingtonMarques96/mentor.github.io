@@ -1,16 +1,10 @@
 @import url(./css/global.css);
 
-main {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  background-color: hsl(0, 0%, 100%);
-}
-
 .texto {
   display: grid;
+  gap: 1.88rem;
   align-items: center;
-  padding-right: 40px;
-  padding-left: 40px;
+  padding-inline: 2.5rem;
 }
 
 .texto div {
@@ -19,7 +13,7 @@ main {
 }
 
 .texto .preco {
-  margin-right: 60px;
+  margin-right: 3.75rem;
 }
 
 #antigo {
@@ -27,35 +21,47 @@ main {
 }
 
 .botao {
-  background-color: hsl(158, 36%, 20%);
+  background-color: hsl(158, 36%, 37%);
   display: flex;
   justify-content: center;
   cursor: pointer;
 }
 
-.botao a,
+.botao {
+  padding: 0.65rem;
+  border-radius: 0.65rem;
+}
+
 .botao img {
-  padding: 10px;
+  padding-right: 0.65rem;
 }
 
 .botao:hover {
-  background: linear-gradient(hsl(158, 36%, 20%), hsl(158, 36%, 37%));
+  background: hsl(158, 36%, 20%);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 43.75rem) {
   br {
     display: none;
   }
-  .perfume img {
-    background-image: url(/images/image-product-mobile.jpg);
-  }
-  main {
+  .container {
     grid-template-columns: 1fr;
     justify-items: center;
-    grid-column: 1/-1;
   }
   .texto {
-    padding-top: 20px;
-    gap: 20px;
+    padding-block: 1.25rem;
+    gap: 1.25rem;
+  }
+  .botao {
+    padding: 1.25rem;
+  }
+}
+
+@media (max-width: 25rem) {
+  .botao {
+    width: 15rem;
+  }
+  .texto .preco {
+    margin-right: 2rem;
   }
 }
