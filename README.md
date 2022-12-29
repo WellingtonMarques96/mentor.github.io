@@ -55,3 +55,7 @@ Through this project I've learned about CSS Grid and also about different CSS's 
 - Github - [WellingtonMarques96](https://github.com/WellingtonMarques96)
 - Frontend Mentor - [@WellingtonMarques96](https://www.frontendmentor.io/profile/WellingtonMarques96)
 - Linkedin - [@wellington-marques-504514156](https://www.linkedin.com/in/wellington-marques-504514156/)
+
+## Acknowledgments
+
+When I sent my project at FrontEndmentor's plataform, [Hassiai](https://www.frontendmentor.io/profile/Hassiai) helped me about how to improve my responsive layout and use Css better.
