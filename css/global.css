@@ -26,23 +26,23 @@ img {
   box-sizing: border-box;
   margin-block: 3.75rem 1.25rem;
   margin-inline: auto;
+  min-height: 10vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: hsl(0, 0%, 100%);
-  place-items: center;
 }
 
 .texto h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  line-height: 3rem;
+  line-height: 2.5rem;
   color: hsl(212, 21%, 14%);
 }
 
 .texto p {
   font-size: 1.25rem;
   font-weight: 500;
-  line-height: 2rem;
+  line-height: 1.5rem;
   color: hsl(228, 12%, 48%);
 }
 
