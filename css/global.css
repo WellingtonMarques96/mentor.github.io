@@ -1,0 +1,98 @@
+body {
+  margin: 0px 0px 20px 0px;
+  font-family: "Montserrat";
+  background-color: hsl(30, 38%, 92%);
+}
+
+h1,
+h3,
+p {
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 4px;
+}
+.container {
+  max-width: 1200px;
+  box-sizing: border-box;
+  margin-top: 120px;
+  margin-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.texto h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 3rem;
+  color: hsl(212, 21%, 14%);
+}
+
+.texto p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: hsl(228, 12%, 48%);
+}
+
+.texto h3 {
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 2rem;
+  color: hsl(228, 12%, 48%);
+}
+
+.texto span {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+
+.texto .preco {
+  font-family: "Fraunces";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2.75rem;
+  line-height: 4rem;
+  color: hsl(158, 36%, 37%);
+}
+
+.botao a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  color: hsl(0, 0%, 100%);
+}
+
+@media (max-width: 900px) {
+  .texto p {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+  .texto h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .perfume img {
+    height: 500px;
+  }
+}
+
+@media (max-width: 700px) {
+  .texto p {
+    font-size: 1.75rem;
+    line-height: 1.75rem;
+  }
+  .texto h1 {
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+}

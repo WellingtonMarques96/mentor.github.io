@@ -1,55 +1,56 @@
-h1,
-p {
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  object-fit: cover;
-}
-
-body {
-  max-width: 1440px;
-  margin: 0 auto;
-  background-color: hsl(30, 38%, 92%);
-  padding: 200px 100px;
-}
+@import url(./css/global.css);
 
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
   background-color: hsl(0, 0%, 100%);
 }
 
 .texto {
   display: grid;
-  align-self: center;
-  gap: 20px;
-  padding-inline: 40px;
+  align-items: center;
+  padding-right: 40px;
+  padding-left: 40px;
 }
 
-.texto h1 {
-  font-size: 2.5rem;
+.texto div {
+  display: flex;
+  align-items: center;
 }
 
-.perfume {
-  background-color: hsl(30, 38%, 92%);
+.texto .preco {
+  margin-right: 60px;
 }
 
-@media (max-width: 1000px) {
-  body {
-    padding: 100px 50px;
-  }
-  .texto {
-    gap: 10px;
-  }
+#antigo {
+  text-decoration: line-through;
+}
+
+.botao {
+  background-color: hsl(158, 36%, 20%);
+  display: flex;
+  justify-content: center;
+}
+
+.botao a,
+.botao img {
+  padding: 10px;
 }
 
 @media (max-width: 700px) {
-  .texto h1 {
-    font-size: 1.5rem;
+  br {
+    display: none;
+  }
+  .perfume img {
+    background-image: url(/images/image-product-mobile.jpg);
+  }
+  main {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    grid-column: 1/-1;
+  }
+  .texto {
+    padding-top: 20px;
+    gap: 20px;
   }
 }
