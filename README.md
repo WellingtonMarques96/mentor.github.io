@@ -33,8 +33,8 @@ I could be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/WellingtonMarques96/mentor.github.io)
-- Live Site URL: [Add live site URL here](https://wellingtonmarques96.github.io/mentor.github.io/)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/product-preview-card-component-TjrgoWPNwI)
+- Live Site URL: [site URL](https://wellingtonmarques96.github.io/mentor.github.io/)
 
 ## My process
 
