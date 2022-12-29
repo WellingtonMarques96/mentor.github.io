@@ -2,7 +2,7 @@
 
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: auto 1fr;
   background-color: hsl(0, 0%, 100%);
 }
 
@@ -30,11 +30,16 @@ main {
   background-color: hsl(158, 36%, 20%);
   display: flex;
   justify-content: center;
+  cursor: pointer;
 }
 
 .botao a,
 .botao img {
   padding: 10px;
+}
+
+.botao:hover {
+  background: linear-gradient(hsl(158, 36%, 20%), hsl(158, 36%, 37%));
 }
 
 @media (max-width: 700px) {
